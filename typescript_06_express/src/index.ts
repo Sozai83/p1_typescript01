@@ -1,13 +1,14 @@
+// index.ts
 import express from "express";
+import { middleware } from "#middlewares/middlewares.js";
 
 const app = express();
-const port = "3000";
+const port = process.env.PORT ?? "3000";
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-  console.log("Response sent. Changed file");
+app.get("/", middleware, () => {
+  console.log("Route handler executed");
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}. Testing`);
+  console.log(`Example app listening on port ${port}`);
 });
