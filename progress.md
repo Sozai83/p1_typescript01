@@ -36,5 +36,15 @@ Changed the `"type"` to `module` to specify that this project uses ES Modules.
 * Added prettier config and prettier ignore for dist file.
 
 
+# 13 May 2026
+Working directory = typescirpt_06_express
+* Added `.vscode` folder with `settings.json` and `extensions.json` for VS Code preferences and reccomendataions.
+
+# 18 May 2026
+* Added ESlint and `eslint.config.js`
+* Added `.env` file
+
+
 Todo
+* Adding tests with Vitest
 * Use express to create some API endpoints (Read https://medium.com/@gabrieldrouin/node-js-2025-guide-how-to-setup-express-js-with-typescript-eslint-and-prettier-b342cd21c30d#f20c)
