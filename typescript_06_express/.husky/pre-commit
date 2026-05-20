@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
+
+cd typescript_06_express
 npm run test:run
 npm run type-check
 npx lint-staged
