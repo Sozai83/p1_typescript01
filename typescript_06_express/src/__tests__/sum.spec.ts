@@ -12,6 +12,6 @@ describe("sum function", () => {
     });
 
     it("should add two negative numbers correctly", () => {
-        expect(sum(-4, -6)).toBe(-9);
+        expect(sum(-4, -6)).toBe(-8);
     });
 });
