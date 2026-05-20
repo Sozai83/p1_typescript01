@@ -44,10 +44,19 @@ Working directory = typescirpt_06_express
 * Added ESlint and `eslint.config.js`
 * Added `.env` file
 
-# 19 May 2026
-
+# 20 May 2026
+* Added tests using vitest
+* Learned about licenses - see: https://choosealicense.com/no-permission/
+* Added husky
+* Added github action
 
 
 Todo
-* Adding tests with Vitest
-* Use express to create some API endpoints (Read https://medium.com/@gabrieldrouin/node-js-2025-guide-how-to-setup-express-js-with-typescript-eslint-and-prettier-b342cd21c30d#f20c)
+* Create a simple API project using express and be sure to include what I learned from https://medium.com/@gabrieldrouin/node-js-2025-guide-how-to-setup-express-js-with-typescript-eslint-and-prettier-b342cd21c30d#f20c:
+    * Use express and Typescirpt
+    * Use vite
+    * Add prettier and ESlint
+    * Add VS code configuration files
+    * Adde vitest
+    * Add github workflow
+    Etc
