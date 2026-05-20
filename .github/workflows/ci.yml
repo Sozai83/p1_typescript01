@@ -10,6 +10,9 @@ on:
 jobs:
   quality-checks:
     runs-on: ubuntu-latest
+    defaults: 
+      run:
+        working-directory: typescript_06_express    # ← all run: commands here use  this folder
 
     steps:
       - name: Checkout code
