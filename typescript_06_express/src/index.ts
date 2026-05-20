@@ -1,5 +1,6 @@
 // index.ts
 import express from "express";
+
 import { middleware } from "#middlewares/middlewares.js";
 
 const app = express();
